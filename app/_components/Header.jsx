@@ -44,7 +44,7 @@ export default function Header() {
             src="/images/logo2.png"
             width={140}
             height={60}
-            className="animate-fade-in rounded scale-150 drop-shadow-xl"
+            className="animate-fade-in rounded scale-150 drop-shadow-xl ml-4"
           />
         </div>
 
