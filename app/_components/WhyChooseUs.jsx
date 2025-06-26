@@ -56,35 +56,35 @@ const ChooseUs = () => {
           >
             <SwiperSlide>
               <img
-                src="/images/HouseOutside2.jpg"
+                src="/images/HouseOutside2.JPG"
                 alt="About slide 1"
                 className="w-full object-cover rounded-xl"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src="/images/HouseKitchen.jpg"
+                src="/images/HouseKitchen.JPG"
                 alt="About slide 2"
                 className="w-full object-cover rounded-xl"
               />
             </SwiperSlide>
             <SwiperSlide>
                 <img
-                src="/images/HouseStair.jpg"
+                src="/images/HouseStair.JPG"
                 alt="About slide 2"
                 className="w-full object-cover rounded-xl"
               />
             </SwiperSlide>
             <SwiperSlide>
                 <img
-                src="/images/HouseBath3.jpg"
+                src="/images/HouseBath3.JPG"
                 alt="About slide 2"
                 className="w-full object-cover rounded-xl"
               />
             </SwiperSlide>
             <SwiperSlide>
                 <img
-                src="/images/HouseRoof2.jpg"
+                src="/images/HouseRoof2.JPG"
                 alt="About slide 2"
                 className="w-full object-cover rounded-xl"
               />

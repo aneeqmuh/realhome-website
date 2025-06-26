@@ -54,49 +54,49 @@ const OurServices = () => {
           >
             <SwiperSlide>
               <img
-                src="/images/HouseOutside.jpg"
+                src="/images/HouseOutside.JPG"
                 alt="About slide 1"
                 className="w-full object-cover rounded-xl"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src="/images/HouseRoom.jpg"
+                src="/images/HouseRoom.JPG"
                 alt="About slide 2"
                 className="w-full object-cover rounded-xl"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src="/images/HouseRoom2.jpg"
+                src="/images/HouseRoom2.JPG"
                 alt="About slide 3"
                 className="w-full object-cover rounded-xl"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src="/images/HouseLiving.jpg"
+                src="/images/HouseLiving.JPG"
                 alt="About slide 4"
                 className="w-full object-cover rounded-xl"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src="/images/HouseBath.jpg"
+                src="/images/HouseBath.JPG"
                 alt="About slide 5"
                 className="w-full object-cover rounded-xl"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src="/images/HouseBath2.jpg"
+                src="/images/HouseBath2.JPG"
                 alt="About slide 6"
                 className="w-full object-cover rounded-xl"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src="/images/HouseRoof.jpg"
+                src="/images/HouseRoof.JPG"
                 alt="About slide 7"
                 className="w-full object-cover rounded-xl"
               />
