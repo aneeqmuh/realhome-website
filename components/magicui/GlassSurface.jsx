@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import "./GlassSurface.css";
 
 const GlassSurface = ({
@@ -29,6 +29,7 @@ const GlassSurface = ({
   const greenChannelRef = useRef(null);
   const blueChannelRef = useRef(null);
   const gaussianBlurRef = useRef(null);
+  const [isClient, setIsClient] = useState(false);
 
   const generateDisplacementMap = () => {
     const rect = containerRef.current?.getBoundingClientRect();
@@ -61,6 +62,10 @@ const GlassSurface = ({
   const updateDisplacementMap = () => {
     feImageRef.current?.setAttribute("href", generateDisplacementMap());
   };
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
   useEffect(() => {
     updateDisplacementMap();
@@ -135,6 +140,10 @@ const GlassSurface = ({
   }, [width, height]);
 
   const supportsSVGFilters = () => {
+    if (!isClient) {
+      return false;
+    }
+
     const isWebkit =
       /Safari/.test(navigator.userAgent) && !/Chrome/.test(navigator.userAgent);
     const isFirefox = /Firefox/.test(navigator.userAgent);
