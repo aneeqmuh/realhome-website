@@ -47,7 +47,7 @@ const Footer = () => {
           <FaFacebookF className="w-4 h-4" />
         </a>
         <a
-          href="https://www.instagram.com/realhome.re/"
+          href="https://www.instagram.com/realhome.contracting/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-white border border-red-600 rounded-full p-2 hover:bg-red-600 transition"

@@ -17,18 +17,12 @@ export default function Home() {
   return (
     <>
       <WhatsAppButton/>
-      <div className="w-full text-center pt-3 pb-1 bg-gradient-to-b from-red-100 to-white">
-        <p className="text-xl text-gray-900 italic tracking-wide">
-          بِسْمِ ٱللّٰهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ
-        </p>
-      </div>
 
       <Header/>
       <Banner/>
       <AboutUs />
-      <WaveDivider/>
-      <OurServices/>
-      <CurveDivider/>
+      {/* <WaveDivider/> */}     <OurServices/>
+      {/* <CurveDivider/> */}
       <WhyChooseUs/>
       <RequestVisit/>
       <Footer/>
