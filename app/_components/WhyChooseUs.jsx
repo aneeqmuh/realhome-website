@@ -218,7 +218,7 @@ const ChooseUs = () => {
           {/* Floating Stats */}
           <div className="absolute -bottom-6 -left-6 bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6 shadow-xl">
             <div className="text-center">
-              <div className="text-3xl font-bold text-white mb-1">500+</div>
+              <div className="text-3xl font-bold text-white mb-1">50+</div>
               <div className="text-white/80 text-sm">Projects Completed</div>
             </div>
           </div>
