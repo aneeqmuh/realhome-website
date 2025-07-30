@@ -33,18 +33,18 @@ export const metadata = {
   // ADD ICONS HERE:
   icons: {
     icon: [
-      { url: '/images/logo2.png', type: 'image/png' },
+      { url: '/images/RC.png', type: 'image/png' },
       { url: '/favicon.ico', sizes: '32x32' }
     ],
-    apple: '/images/logo2.png',
-    shortcut: '/images/logo2.png',
+    apple: '/images/RC.png',
+    shortcut: '/images/RC.png',
   },
   openGraph: {
     title: "Real Home Contracting | Villa Renovation in Ajman",
     description: "Contact us for expert construction and interior design services across the UAE.",
     url: "https://realhomecontracting.com",
     siteName: "Real Home Contracting",
-    images: ['/images/logo2.png'], // Also good for social sharing
+    images: ['/images/RC.png'], // Also good for social sharing
   },
 };
 
